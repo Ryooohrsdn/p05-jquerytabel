@@ -1,0 +1,46 @@
+body{
+    background-image: url(POWERP3.JPG);
+}
+
+.tabel h2{
+    text-align: center;
+}
+
+h2{
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+h2:hover{
+    letter-spacing: 2px;
+    color: rgb(238, 238, 161);
+}
+
+table{
+    font-family: sans-serif;
+}
+
+th{
+    background-color: rgb(63, 59, 59);
+    color: rgba(240, 255, 255, 0.808);
+}
+
+td{
+    background-color: rgb(197, 197, 146);
+    cursor: pointer;
+}
+
+th,td{
+    width: 200px;
+    height: 36px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 9px;
+}
+
+body{
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
